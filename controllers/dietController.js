@@ -1,5 +1,4 @@
 const Diet = require('../models/dietModel');
-const User = require('../models/userModel');
 const Preferences = require('../models/userPreferencesModel.js');
 const { generateDietPlan } = require('../services/chatgpt.js'); // Ensure this import exists
 
